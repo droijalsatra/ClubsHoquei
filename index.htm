@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adreces de Clubs de Hoquei</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="tablesearch.js"></script>
+    
+    <!-- A secure certificate is needed for images. I'm on it ... meanwhile ... lines commented xDDD
+
+    <link href="http://cercahoquei.000webhostapp.com/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="http://cercahoquei.000webhostapp.com/icon-hires.png" rel="icon" sizes="192x192" />
+    <link href="http://cercahoquei.000webhostapp.com/icon-normal.png" rel="icon" sizes="128x128" />
+    -->
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input type="text" id="searchBox" class="search_box" />
+            <span class="reset_hint"><i>Esc</i> per inicialitzar la cerca</span></td>
+        </tr>
+        <tr>
+            <td>
+                <table id="dataTable" border="1" class="table">
+                    <tr><th>Nom Club</th><th>Adre&ccedil;a</th><th>Codi Postal i Poblaci&oacute;</th><th>Google Maps</th></tr>
+                
+
+<tr>
+    <td>ANDORRA HC</td>
+    <td>Avinguda de Salou, 22</td>
+    <td>AD500 | Andorra La Vella | Andorra</td>
+    <td><a href="https://www.google.es/maps/place/Av.+de+Salou,+22,+AD500+Andorra+la+Vella,+Andorra/@42.5024069,1.5124255,17z/data=!3m1!4b1!4m5!3m4!1s0x12a5f529c5510c7f:0x311a82bfb2da08a!8m2!3d42.5024069!4d1.5146142?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH ARENYS DE MAR</td>
+    <td>Carrer Font de les Creus, S/N</td>
+    <td>08350 | Arenys de Mar | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Uni%C3%B3+de+Federacions+Esportives+Catalanes/@41.5824103,2.540891,17z/data=!4m8!1m2!2m1!1scarrer+font+de+les+creus,+s%2Fn+Arenys+de+Mar+08350!3m4!1s0x0:0xa346473bb1414bb7!8m2!3d41.582546!4d2.5430037?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE ARENYS DE MUNT</td>
+    <td>Torrent d'en Terra, S/N</td>
+    <td>08358 | Arenys De Munt | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Club+Esportiu+Arenys+de+Munt/@41.6189417,2.53516,17z/data=!4m8!1m2!2m1!1sTorrent+d'en+Terra,+s%2Fn+08358,+Arenys+de+Munt!3m4!1s0x0:0x37a19a47e076645f!8m2!3d41.6194979!4d2.5365812?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>UE BARBERA</td>
+    <td>Carrer de Maria Reverter, 80</td>
+    <td>08210 | Barber&agrave; del Vall&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Carrer+de+Maria+Reverter,+80,+08210+Barber%C3%A0+del+Vall%C3%A8s,+Barcelona/@41.5201634,2.1268474,17z/data=!3m1!4b1!4m5!3m4!1s0x12a495eb14cf2525:0x89aa54c31dc177a5!8m2!3d41.5201634!4d2.1290361?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>FC BARCELONA</td>
+    <td>Passeig Vall d'Hebron, 171</td>
+    <td>08035 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Passeig+de+la+Vall+d'Hebron,+171,+08035+Barcelona/@41.4357934,2.1452143,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4bd58d0b463fd:0xcce74f7f6f6d9cc9!8m2!3d41.4357934!4d2.147403?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CT BARCINO</td>
+    <td>Pla&ccedil;a de Narcisa Freixas, 2</td>
+    <td>08022 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Pla%C3%A7a+de+Narcisa+Freixas,+2,+08022+Barcelona/@41.4082877,2.1362176,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4980eef80ad33:0x9e63298e45655714!8m2!3d41.4082877!4d2.1384063?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP BIGUES I RIELLS</td>
+    <td>Carrer del Cam&iacute; de Can Badell, S/N</td>
+    <td>08415 | Bigues i Riells | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Cam%C3%AD+de+Can+Badell,+08415+Bigues+i+Riells,+Barcelona/@41.6758253,2.2126382,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c3f222e879d3:0x46c0e8a8a1ecfb5e!8m2!3d41.6758253!4d2.2148269?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH CALDES</td>
+    <td>Carrer de la Torre Roja, S/N</td>
+    <td>08140 | Caldes de Montbui | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Carrer+Torre+Roja,+08140+Caldes+de+Montbui,+Barcelona/@41.6382039,2.1548,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4c1c39b44e301:0xd833042ca45fbb65!8m2!3d41.6382039!4d2.1569887?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH CANET</td>
+    <td>Pla&ccedil;a Manent, S/N</td>
+    <td>08360 | Canet de Mar | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Pavell%C3%B3+Municipal+d'Esports,+Carrer+Catalunya,+s%2Fn,+08360+Canet+de+Mar,+Barcelona/@41.5164372,2.2258493,11z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12bb37cb98e8eaa1:0xc77fd85093a01d7e!2sPavell%C3%B3+Municipal+d'Esports!8m2!3d41.5878715!4d2.5781225!4m9!1m1!4e1!1m5!1m1!1s0x12bb37cb98e8eaa1:0xc77fd85093a01d7e!2m2!1d2.5781228!2d41.5878713!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CAPELLADES HC</td>
+    <td>Avinguda de Maties Guasch, S/N</td>
+    <td>08786 | Capellades | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Pavell%C3%B3+Municipal+Capellades/@41.5274962,1.6814479,17z/data=!4m13!1m7!3m6!1s0x12a466185ea26e3f:0xbfd0f9601358e60!2sAvinguda+Matias+Guasch,+08786+Capellades,+Barcelona!3b1!8m2!3d41.5274962!4d1.6836366!3m4!1s0x12a4661845186c09:0x788186d62684ce11!8m2!3d41.5272254!4d1.684045?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>AE CASP</td>
+    <td>Carrer de Roger de Ll&uacute;ria, 19</td>
+    <td>08013 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Carrer+de+Roger+de+Ll%C3%BAria,+19,+08010+Barcelona/@41.3907766,2.1703619,18.43z/data=!4m13!1m7!3m6!1s0x12a4a2ee29bf0bc5:0x15a551d2ab8b8d97!2sCarrer+de+Roger+de+Ll%C3%BAria,+19,+08010+Barcelona!3b1!8m2!3d41.3908754!4d2.1716238!3m4!1s0x12a4a2ee29bf0bc5:0x15a551d2ab8b8d97!8m2!3d41.3908754!4d2.1716238" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC CASTELLAR</td>
+    <td>Carrer de Sant Feliu, 2</td>
+    <td>08211 | Castellar del Vall&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Pavell%C3%B3+Municipal+Dani+Pedrosa,+Carrer+de+Sant+Feliu,+2,+08211+Castellar+del+Vall%C3%A9s,+Barcelona/@41.5269529,2.004737,11z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a4eb3ae97867e7:0x2ca610c6dc19b0f7!2sPavell%C3%B3+Municipal+Dani+Pedrosa!8m2!3d41.6157792!4d2.0845693!4m9!1m1!4e1!1m5!1m1!1s0x12a4eb3ae97867e7:0x2ca610c6dc19b0f7!2m2!1d2.084569!2d41.615779!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH CASTELLET</td>
+    <td>Zona Esportiva, S/N</td>
+    <td>08295 | Sant Vicen&ccedil; de Castellet | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Col%C2%B7legi+P%C3%BAblic+Sant+Vicen%C3%A7,+Pla%C3%A7a+Onze+de+Setembre,+s%2Fn,+08295+San+Vicente+de+Castellet,+Barcelona/@41.5353031,1.8828483,11z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a4f5a97479486b:0x2dea97ba6fae668!2zQ29swrdsZWdpIFDDumJsaWMgU2FudCBWaWNlbsOn!8m2!3d41.662573!4d1.8642667!4m9!1m1!4e1!1m5!1m1!1s0x12a4f5a97479486b:0x2dea97ba6fae668!2m2!1d1.864267!2d41.662573!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP CENTELLES</td>
+    <td>Ronda de Esports, S/N</td>
+    <td>08540 | Centelles | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Ronda+Esports,+08540+Centelles,+Barcelona/@41.6006466,1.8933273,10z/data=!3m1!4b1!4m18!1m7!3m6!1s0x12a4db8baa8e9187:0x11acd24009c6ddf2!2sRonda+Esports,+08540+Centelles,+Barcelona!3b1!8m2!3d41.7958883!4d2.2259639!4m9!1m1!4e1!1m5!1m1!1s0x12a4db8baa8e9187:0x11acd24009c6ddf2!2m2!1d2.2259639!2d41.7958883!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CERDANYOLA CH</td>
+    <td>Carrer de les Cam&egrave;lies, S/N</td>
+    <td>08290 | Cerdanyola del Vall&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Pavell%C3%B3+Municipal+Can+Xarau,+Carrer+de+les+Cam%C3%A8lies,+0,+08290+Cerdanyola+del+Vall%C3%A8s,+Barcelona/@41.4632307,2.1338268,13z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a496046ffc6abf:0xd6fd8df4bb5c351b!2sPavell%C3%B3+Municipal+Can+Xarau!8m2!3d41.4944996!4d2.140097!4m9!1m1!4e1!1m5!1m1!1s0x12a496046ffc6abf:0xd6fd8df4bb5c351b!2m2!1d2.140097!2d41.4944995!3e0?hl=ca" target="_blank">MAPS</a></td>
+
+<tr>
+    <td>CES HP</td>
+    <td>Carrer de la Immaculada, 25-35</td>
+    <td>08017 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Carrer+de+la+Immaculada,+25,+08017+Barcelona/@41.4191045,2.1084648,13z/data=!3m1!4b1!4m18!1m7!3m6!1s0x12a4983ddd1e6b61:0x36c90a9cce5b7028!2sCarrer+de+la+Immaculada,+25,+08017+Barcelona!3b1!8m2!3d41.4068694!4d2.1246398!4m9!1m1!4e1!1m5!1m1!1s0x12a4983ddd1e6b61:0x36c90a9cce5b7028!2m2!1d2.1246398!2d41.4068694!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>UE CLARET</td>
+    <td>Carrer de Sic&iacute;lia, 333</td>
+    <td>08025 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Col%C2%B7legi+Claret+de+Barcelona,+Carrer+de+Sant+Antoni+Maria+Claret,+49,+08025+Barcelona/@41.419522,2.1517918,14z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a4a2c0d464f715:0xf7b53140dd6224dc!2sCol%C2%B7legi+Claret+de+Barcelona!8m2!3d41.4061221!4d2.1672953!4m9!1m1!4e1!1m5!1m1!1s0x12a4a2c0d464f715:0xf7b53140dd6224dc!2m2!1d2.1672956!2d41.4061223!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP CONGRES</td>
+    <td>Pla&ccedil;a Albert Badia i Mur, 1</td>
+    <td>08030 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pla%C3%A7a+d'Albert+Badia+i+Mur,+Barcelona/@41.4277842,2.1906494,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x12a4bcd032c2898b:0x2c64cf0d066249e1!2m2!1d2.1928381!2d41.4277842!3e0" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH CORBERA</td>
+    <td>Carrer de Josep Tarradellas, S/N</td>
+    <td>08757 | Corbera de Llobregat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Pavell%C3%B3+Municipal+D'esports,+Carrer+Josep+Tarradellas,+1,+08757+Corbera+de+Llobregat,+Barcelona/@41.4178923,1.9724595,12z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a485ee3dc8f4f7:0x461f6ecb446a7d70!2sPavell%C3%B3+Municipal+D'esports!8m2!3d41.4143522!4d1.9232398!4m9!1m1!4e1!1m5!1m1!1s0x12a485ee3dc8f4f7:0x461f6ecb446a7d70!2m2!1d1.9232398!2d41.4143524!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE CORNELLA</td>
+    <td>Avenida L&iacute;nea El&egrave;ctrica, 1-7</td>
+    <td>08940 | Cornell&agrave; De Llobregat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Av.+L%C3%ADnia+El%C3%A8ctrica,+1,+08940+Cornell%C3%A0+de+Llobregat,+Barcelona/@41.36631,2.0789113,17z/data=!3m1!4b1!4m5!3m4!1s0x12a499695fa90cef:0xda5bd6b2970d015!8m2!3d41.36631!4d2.0811?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP CUBELLES</td>
+    <td>Avinguda de Pompeu Fabra, S/N</td>
+    <td>08880 | Cubelles | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Poliesportiu+municipal,+Av.+Onze+de+Setembre,+s%2Fn,+08880+Cubelles,+Barcelona,+Barcelona/@41.3541022,1.6463218,10z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a3889f620b9b21:0xb624f74dab18ac29!2sPoliesportiu+municipal!8m2!3d41.2022015!4d1.6716848!4m9!1m1!4e1!1m5!1m1!1s0x12a3889f620b9b21:0xb624f74dab18ac29!2m2!1d1.6716849!2d41.2022015!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP FOLGUEROLES</td>
+    <td>Font de la Sala, S/N</td>
+    <td>08519 | Folgueroles | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Estructuras+Pairo+S+L,+Calle+Font+De+La+Sala,+7,+08519+Folgueroles,+Barcelona/@41.6959641,1.8086226,10z/data=!3m1!4b1!4m17!1m6!3m5!1s0x12a5288a469d9f37:0xceaebc3b4d6e0920!2sEstructuras+Pairo+S+L!8m2!3d41.9376451!4d2.3187684!4m9!1m1!4e1!1m5!1m1!1s0x12a5288a469d9f37:0xceaebc3b4d6e0920!2m2!1d2.3187684!2d41.9376451!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>UE HORTA</td>
+    <td>Carrer de Feliu i Codina, 27</td>
+    <td>08031 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Carrer+de+Feliu+i+Codina,+27,+08031+Barcelona/@41.4335492,2.1565884,17z/data=!3m1!4b1!4m18!1m7!3m6!1s0x12a4bd46f5669d4d:0x67dc405bec2df913!2sCarrer+de+Feliu+i+Codina,+27,+08031+Barcelona!3b1!8m2!3d41.4333526!4d2.160948!4m9!1m1!4e1!1m5!1m1!1s0x12a4bd46f5669d4d:0x67dc405bec2df913!2m2!1d2.160948!2d41.4333526!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>IGUALADA HC</td>
+    <td>Carrer de Carles Riba, S/N</td>
+    <td>08700 | Igualada | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Pabellon+Igualada,+Carrer+de+les+Guixeres,+36,+08700+Igualada,+Barcelona/@41.4872759,1.7521378,11z/data=!3m1!4b1!4m17!1m6!3m5!1s0x0:0x95881f09b418b6e0!2sPabellon+Igualada!8m2!3d41.594713!4d1.6226432!4m9!1m1!4e1!1m5!1m1!1s0x12a44274001c56fd:0x95881f09b418b6e0!2m2!1d1.6226426!2d41.594713!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>JESUITES SARRIA</td>
+    <td>Carrer del General Vives, 24</td>
+    <td>08017 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Carrer+del+General+Vives,+24,+08017+Barcelona/@41.4022653,2.1133183,17z/data=!3m1!4b1!4m5!3m4!1s0x12a498381cea06cf:0x3e464360fddaa532!8m2!3d41.4022653!4d2.115507?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>JMJ</td>
+    <td>Carrer del Pare Manyanet, 19</td>
+    <td>08030 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir/41.432808,2.1617958/Carrer+del+Pare+Manyanet,+19,+08030+Barcelona/@41.4346908,2.1552165,14z/data=!3m1!4b1!4m18!1m7!3m6!1s0x12a4bcd052cbe431:0xaf5289c640658d14!2sCarrer+del+Pare+Manyanet,+19,+08030+Barcelona!3b1!8m2!3d41.4279629!4d2.1922165!4m9!1m1!4e1!1m5!1m1!1s0x12a4bcd052cbe431:0xaf5289c640658d14!2m2!1d2.1922165!2d41.4279629!3e0?hl=ca" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>UE LA GARRIGA</td>
+    <td>Avinguda de l'Onze de Setembre, S/N</td>
+    <td>08530 | La Garriga | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/hoquei+ue+la+garriga+Avinguda+de+l'Onze+de+Setembre/@41.5354092,2.0375473,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4c5936679684d:0x3c5c549df5cbb9a5!2m2!1d2.2943293!2d41.6800987" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>SALLE BONANOVA</td>
+    <td>Carrer de Sant Joan de la Salle, 33</td>
+    <td>08022 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/Poliesportiu+la+Salle,+Carrer+de+Sant+Joan+de+la+Salle,+20,+08022+Barcelona/@41.4014273,2.1191794,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4981141ec15c1:0x357c1984818563d1!2m2!1d2.132096!2d41.4077479" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE LAIETA</td>
+    <td>Carrer del Pintor Ribalta, 2-8</td>
+    <td>08028 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/CE+LAIETA+Carrer+del+Pintor+Ribalta/@41.3849747,2.1169563,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a498f9d0882bff:0xaa0384757a6d6066!2m2!1d2.11511!2d41.378744" target="_blak">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP LLU&Ccedil;ANES</td>
+    <td>Pavell&oacute; Municipal</td>
+    <td>08516 | Olost | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal.,+Zona+esportiva+d'Olost+s%2Fn,+08516+Olost,+Barcelona/@41.9855483,2.0956621,17z/data=!4m16!1m6!3m5!1s0x12a5192ea5d28b8b:0xbf8e55a5f11f3355!2sPavell%C3%B3+Municipal.!8m2!3d41.9851277!4d2.1000905!4m8!1m0!1m5!1m1!1s0x12a5192ea5d28b8b:0xbf8e55a5f11f3355!2m2!1d2.1000905!2d41.9851277!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MALGRAT</td>
+    <td>Avda. Tarragona, S/N</td>
+    <td>08380 | Malgrat De Mar | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal,+Av.+Tarragona,+28,+08380+Malgrat+de+Mar,+Barcelona/@41.644535,2.733243,17z/data=!4m16!1m6!3m5!1s0x0:0x1308978c33840db2!2sPavell%C3%B3+Municipal!8m2!3d41.6445999!4d2.7353201!4m8!1m0!1m5!1m1!1s0x12bb3e8123c59daf:0x1308978c33840db2!2m2!1d2.73532!2d41.6445999!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MANLLEU</td>
+    <td>Passeig del Ter, S/N</td>
+    <td>08560 | Manlleu | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/hoquei+cp+manlleu+passeig+del+ter/@41.6948323,1.8934901,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a525b8f3008fd1:0x4283863e5d660a7a!2m2!1d2.2762131!2d41.9974658" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MANRESA</td>
+    <td>Sant Fruitos, S/N (Pavell&oacute; El Pujolet)</td>
+    <td>08240 | Manresa | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+Pujolet,+Carrer+de+Sant+Fruit%C3%B3s,+08242+Manresa,+Barcelona/@41.7296215,1.8182883,17z/data=!4m16!1m6!3m5!1s0x12a4581267331b5d:0x6d61b37bcfd2a919!2sPavell%C3%B3+Municipal+Pujolet!8m2!3d41.7296175!4d1.820477!4m8!1m0!1m5!1m1!1s0x12a4581267331b5d:0x6d61b37bcfd2a919!2m2!1d1.820477!2d41.7296175!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE MARISTES ST JOAN</td>
+    <td>Carrer de Val&egrave;ncia, 370</td>
+    <td>08009 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/hoquei+CE+MARISTES+ST+JOAN+%09Carrer+de+Val%C3%A8ncia,+370/@41.3938313,2.1545853,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4a2e9af843bf7:0x2cf3d2049e4156d9!2m2!1d2.1720176!2d41.3990343" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>FC MARTINENC</td>
+    <td>Carrer del Tel&egrave;graf, 31</td>
+    <td>08041 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Sports+Centre+CEM+Guinard%C3%B3,+Carrer+del+Tel%C3%A8graf,+31,+45,+08041+Barcelona/@41.4168513,2.1717031,17z/data=!4m16!1m6!3m5!1s0x12a4a2cdf2f0cf75:0xae155de2459be23!2sSports+Centre+CEM+Guinard%C3%B3!8m2!3d41.4168473!4d2.1738918!4m8!1m0!1m5!1m1!1s0x12a4a2cdf2f0cf75:0xae155de2459be23!2m2!1d2.1738918!2d41.4168473!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>PB MARTORELL</td>
+    <td>Pla&ccedil;a De La Mina (Escola Els Convents)</td>
+    <td>08760 | Martorell | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Escola+Els+Convents,+Av.+Vicen%C3%A7+Ros+i+Batllevell,+08760+Martorell,+Barcelona/@41.4727641,1.930472,16z/data=!4m16!1m6!3m5!1s0x12a48ee66bf8c28f:0xaed1ee10f7c6b39e!2sEscola+Els+Convents!8m2!3d41.4730333!4d1.9321474!4m8!1m0!1m5!1m1!1s0x12a48ee66bf8c28f:0xaed1ee10f7c6b39e!2m2!1d1.9321474!2d41.4730333!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MASIES VOLTREGA</td>
+    <td>Carrer de la Pau, S/N</td>
+    <td>08509 | Les Masies de Voltreg&agrave; | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Voltrega+Hockey+Club,+Carrer+de+la+Pau,+22,+08508+Les+Masies+de+Voltreg%C3%A0,+Barcelona/@42.0402008,2.2305626,17z/data=!4m16!1m6!3m5!1s0x12a524a3124d6867:0xbe30f7e2d1aa6651!2sVoltrega+Hockey+Club!8m2!3d42.0402799!4d2.2318098!4m8!1m0!1m5!1m1!1s0x12a524a3124d6867:0xbe30f7e2d1aa6651!2m2!1d2.23181!2d42.04028!3e3" target"_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MASQUEFA</td>
+    <td>Carrer de Rogelio Rojo, 32</td>
+    <td>08783 | Masquefa | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+Rogelio+Rojo,+32,+08783+Masquefa,+Barcelona/@41.4988955,1.8103886,17.75z/data=!4m17!1m7!3m6!1s0x12a46218428733fb:0x48489e9d66fe8e0e!2sCarrer+Rogelio+Rojo,+32,+08783+Masquefa,+Barcelona!3b1!8m2!3d41.4987552!4d1.8135711!4m8!1m0!1m5!1m1!1s0x12a46218428733fb:0x48489e9d66fe8e0e!2m2!1d1.8135711!2d41.4987552!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH MATARO</td>
+    <td>Avinguda Corregiment de Matar&oacute;, S/N</td>
+    <td>08303 | Mataró | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Hoquei+Matar%C3%B3,+info@chmataro.net,+Avinguda+Corregiment+de+Matar%C3%B3,+62,+08304+Matar%C3%B3,+Barcelona/@41.5470777,2.435073,17z/data=!4m16!1m6!3m5!1s0x12a4b5179c97e23f:0xfae13aee97393d32!2sClub+Hoquei+Matar%C3%B3!8m2!3d41.5470737!4d2.4372617!4m8!1m0!1m5!1m1!1s0x12a4b5179c97e23f:0xfae13aee97393d32!2m2!1d2.4372617!2d41.5470737!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE MOLINS DE REI</td>
+    <td>Carrer de Sant Antoni Maria Claret, 1 Bis</td>
+    <td>08750 | Molins de Rei | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Poliesportiu+Municipal+de+Molins+de+Rei,+Carrer+de+Sant+Antoni+Maria+Claret,+1+bis,+08750+Molins+de+Rey,+Barcelona/@41.4123066,2.0180424,17z/data=!4m16!1m6!3m5!1s0x12a49a8ee9918513:0xe052506c7e3c6890!2sPoliesportiu+Municipal+de+Molins+de+Rei!8m2!3d41.4123026!4d2.0202311!4m8!1m0!1m5!1m1!1s0x12a49a8ee9918513:0xe052506c7e3c6890!2m2!1d2.0202311!2d41.4123026!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>MOLLET HC</td>
+    <td>Carrer de Can Fabregas, 1-3</td>
+    <td>08100 | Mollet | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Mollet+Hoquei+Club,+Pavell%C3%B3+Municipal+d%E2%80%99Esports+Riera+Seca,+C%2F+Can+F%C3%A0bregas,+1-3,+93+570+56+99,+08100+Mollet+del+Vall%C3%A8s,+Barcelona/@41.5378845,2.2150989,17z/data=!4m16!1m6!3m5!1s0x12a4bed65a5eedfb:0xed3d5731224b34ff!2sMollet+Hoquei+Club!8m2!3d41.5378805!4d2.2172876!4m8!1m0!1m5!1m1!1s0x12a4bed65a5eedfb:0xed3d5731224b34ff!2m2!1d2.2172876!2d41.5378805!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP MONJOS</td>
+    <td>Av de Catalunya, 13</td>
+    <td>08730 | Sta Margarida els Monjos | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/club+pati+monjosd/@41.402201,1.6340709,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4776c929d2705:0xa3bbb0ef572f39a!2m2!1d1.65845!2d41.3230013" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC MONTBUI</td>
+    <td>Carrer de Can Passanals, S/N</td>
+    <td>08710 | Sta Margarida Montbui | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Hoquei+Club+Montbui,+Carrer+Can+Passanals,+s%2Fn,+08710+Santa+Margarida+de+Montbui,+Barcelona/@41.5726257,1.6084215,17z/data=!4m16!1m6!3m5!1s0x12a469ecff92c51b:0xcb1c5af31370ebf5!2sHoquei+Club+Montbui!8m2!3d41.5726217!4d1.6106102!4m8!1m0!1m5!1m1!1s0x12a469ecff92c51b:0xcb1c5af31370ebf5!2m2!1d1.6106102!2d41.5726217!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH NAVARCLES</td>
+    <td>Carrer de Joaquim Blume, S/N</td>
+    <td>08270 | Navarcles | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+de+Navarcles,+Carrer+Joaquim+Blume,+08270+Navarcles,+Barcelona/@41.7503459,1.9040059,17z/data=!4m16!1m6!3m5!1s0x12a4f9f924058a41:0x7f8e15f10c6275fe!2sPavell%C3%B3+Municipal+de+Navarcles!8m2!3d41.7503419!4d1.9061946!4m8!1m0!1m5!1m1!1s0x12a4f9f924058a41:0x7f8e15f10c6275fe!2m2!1d1.9061946!2d41.7503419!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE NOIA Freixenet</td>
+    <td>Carrer de Josep Rovira, 14</td>
+    <td>08770 | Sant Sadurn&iacute; d'Anoia | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Esportiu+Noia,+Pavell%C3%B3+Olimpic+de+L'Ateneu,+Carrer+de+Josep+Rovira,+14,+08770+Sant+Sadurn%C3%AD+d'Anoia,+Barcelona/@41.4230468,1.7812202,17z/data=!4m16!1m6!3m5!1s0x12a47cd21ad9197d:0x3d344a32ca19325d!2sClub+Esportiu+Noia!8m2!3d41.4230428!4d1.7834089!4m8!1m0!1m5!1m1!1s0x12a47cd21ad9197d:0x3d344a32ca19325d!2m2!1d1.7834089!2d41.4230428!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE OLESA PATI</td>
+    <td>Carrer del Bages</td>
+    <td>08640 | Olesa de Montserrat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Olesa+Patins,+08640+Olesa+de+Montserrat,+Barcelona/@41.5544351,1.8891783,17z/data=!4m16!1m6!3m5!1s0x12a48bac6b60eb15:0xd83c5e3b02255392!2sClub+Olesa+Patins!8m2!3d41.5544311!4d1.891367!4m8!1m0!1m5!1m1!1s0x12a48bac6b60eb15:0xd83c5e3b02255392!2m2!1d1.891367!2d41.5544311!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC PALAU PLEGAMANS</td>
+    <td>Passeig de la Carrerada, 55</td>
+    <td>08184 | Palau-Solit&agrave; i Plegamans | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Hoquei+Club+Palau+de+Plegamans,+Passeig+de+la+Carrerada,+55,+08184+Palau-solit%C3%A0+i+Plegamans,+Barcelona/@41.585649,2.1739403,17z/data=!4m16!1m6!3m5!1s0x12a4c07989df482f:0x156293dbdc2e8e87!2sHoquei+Club+Palau+de+Plegamans!8m2!3d41.585645!4d2.176129!4m8!1m0!1m5!1m1!1s0x12a4c07989df482f:0x156293dbdc2e8e87!2m2!1d2.176129!2d41.585645!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP PERPETUENC</td>
+    <td>Avinguda de Girona, 7</td>
+    <td>08130 | Santa Perp&egrave;tua de Mogoda | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Avinguda+de+Girona,+7,+08130+Santa+Perp%C3%A8tua+de+Mogoda,+Barcelona/@41.5290362,2.180094,17z/data=!3m1!4b1!4m8!1m2!2m1!1sCP+PERPETUENC+Avinguda+de+Girona,+7+%0908130+%7C+Santa+Perp%C3%A8tua+de+Mogoda!3m4!1s0x12a4be59c973b3ef:0xedcaf26de9560b00!8m2!3d41.5290322!4d2.1822827" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC PIERA Matrinox</td>
+    <td>Carrer de Calder&oacute;n de la Barca, 3-5</td>
+    <td>08784 | Piera | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//hoquei+club+piera,+Carrer+Calder%C3%B3n+de+la+Barca,+3-5,+08784+Piera,+Barcelona/@41.5238,1.7436923,17z/data=!4m16!1m6!3m5!1s0x12a466b73ae8c483:0xe51d2d33b52b2097!2shoquei+club+piera!8m2!3d41.523796!4d1.745881!4m8!1m0!1m5!1m1!1s0x12a466b73ae8c483:0xe51d2d33b52b2097!2m2!1d1.745881!2d41.523796!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH PRAT</td>
+    <td>Carrer de Frederica Montseny, S/N</td>
+    <td>08820 | El Prat de Llobregat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/CEM+Sagnier/@41.321815,2.0808453,17z/data=!3m1!4b1!4m5!3m4!1s0x12a49e95778d2625:0xedd6a7a0a8adb194!8m2!3d41.321815!4d2.083034" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH PREMIA</td>
+    <td>Cam&iacute; del Mig, 62</td>
+    <td>08330 | Premi&agrave; de Mar | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/Club+Hoquei+Premi%C3%A0/@41.4447893,2.1182446,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4b13e6f7c9c95:0xa6195b7e04f39a5f!2m2!1d2.3522786!2d41.4963883" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>RIBES CP</td>
+    <td>Carrer de Crist&ograve;fol Mestre, S/N</td>
+    <td>08810 | Sant Pere de Ribes | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+B%C3%A0squet+Ribes,+C%2F+Crist%C3%B2fol+Mestres,+s%2Fn,+Pavell%C3%B3+Poliesportiu,+08810+Sant+Pere+de+Ribes,+Barcelona/@41.260206,1.7776923,17z/data=!4m16!1m6!3m5!1s0x12a3809bb08f338d:0xd917a36a5a828d6f!2sClub+B%C3%A0squet+Ribes!8m2!3d41.260202!4d1.779881!4m8!1m0!1m5!1m1!1s0x12a3809bb08f338d:0xd917a36a5a828d6f!2m2!1d1.779881!2d41.260202!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH RIPOLLET</td>
+    <td>Carrer de Pizarro, S/N</td>
+    <td>08291 | Ripollet | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//CH+Ripollet,+s%2Fn,+Rambla+dels+Pinetons,+08291+Barcelona/@41.5014952,2.1551622,17z/data=!4m16!1m6!3m5!1s0x12a4be09d3465645:0x974287631433dc11!2sCH+Ripollet!8m2!3d41.5014912!4d2.1573509!4m8!1m0!1m5!1m1!1s0x12a4be09d3465645:0x974287631433dc11!2m2!1d2.1573509!2d41.5014912!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP RIU PRIMER</td>
+    <td>Carrer de la Nou, S/N</td>
+    <td>08505 | Santa Eul&agrave;lia de Riuprimer | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+Nou,+08505+Santa+Eul%C3%A0lia+de+Riuprimer,+Barcelona/@41.9082765,2.1859085,17z/data=!4m17!1m7!3m6!1s0x12a5208604486461:0xb888cf3fc20d7658!2sCarrer+Nou,+08505+Santa+Eul%C3%A0lia+de+Riuprimer,+Barcelona!3b1!8m2!3d41.9082725!4d2.1880972!4m8!1m0!1m5!1m1!1s0x12a5208604486461:0xb888cf3fc20d7658!2m2!1d2.1880972!2d41.9082725!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP RIUDEBITLLES</td>
+    <td>Cam&iacute; de Sant Jeroni, S/N</td>
+    <td>08776 | Sant Pere de Riudebitlles | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Passatge+de+Sant+Jeroni,+08776,+Barcelona/@41.4489236,1.6960058,17z/data=!4m17!1m7!3m6!1s0x12a4651680879d4d:0xbb0db0ab1ae06944!2sPassatge+de+Sant+Jeroni,+08776,+Barcelona!3b1!8m2!3d41.4489196!4d1.6981945!4m8!1m0!1m5!1m1!1s0x12a4651680879d4d:0xbb0db0ab1ae06944!2m2!1d1.6981945!2d41.4489196!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP RODA</td>
+    <td>Carretera d'Olot, S/N</td>
+    <td>08510 | Roda De Ter | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/club+pati+roda+de+ter/@41.686619,1.9068536,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a52f5ad232b293:0xfaac0597c4e94113!2m2!1d2.312661!2d41.9883675" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP ST CELONI</td>
+    <td>Passeig dels Esports, S/N</td>
+    <td>08470 | Sant Celoni | Barcelona</td>
+    <td><a href="https://www.google.es/maps/place/Club+Pat%C3%AD+Sant+Celoni/@41.6914153,2.4872238,17z/data=!3m1!4b1!4m5!3m4!1s0x12bb331cd813bfb1:0x2dc85a31d9d49b9!8m2!3d41.6914113!4d2.4894125" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>PHC ST CUGAT</td>
+    <td>Rambla del Celler, S/N</td>
+    <td>08172 | Sant Cugat del Vall&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/PHC+SANT+CUGAT/@41.4356789,2.0409343,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a496dcf95b9919:0xa92a8cf61007201d!2m2!1d2.0829768!2d41.4701538" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP ST FELIU CODINES</td>
+    <td>Ronda Dels Esports, S/N</td>
+    <td>08182 | Sant Feliu De Codines | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Francesc+Cassart,+Av.+Escoles,+08182+Sant+Feliu+de+Codines,+Barcelona/@41.6951245,2.1638341,17z/data=!4m16!1m6!3m5!1s0x12a4c25dddc84603:0x7fa1e23a1991a087!2sPavell%C3%B3+Francesc+Cassart!8m2!3d41.6951205!4d2.1660228!4m8!1m0!1m5!1m1!1s0x12a4c25dddc84603:0x7fa1e23a1991a087!2m2!1d2.1660228!2d41.6951205!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>ST JOSEP BADALONA</td>
+    <td>Avda. Salvador Espriu, 14</td>
+    <td>08917 | Badalona | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir/41.3911056,2.1548484/Club+Hoquei+Pat%C3%AD+Sant+Josep+de+Badalona,+Av.+Salvador+Espriu,+14,+08917+Badalona,+Barcelona/@41.4156819,2.1594388,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12a4bb6f7dd5746f:0x6fae8a5d3daaf7ab!2m2!1d2.233078!2d41.4467018" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HF ST JOSEP SS</td>
+    <td>Carrer dels Germans de Sant Gabriel, 2</td>
+    <td>08770 | Sant Sadurn&iacute; d'Anoia | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Col%C2%B7legi+Sant+Josep+-+Fundaci%C3%B3+de+Cultura+i+Promoci%C3%B3+Social,+Carrer+Germans+Sant+Gabriel,+2,+08770+San+Sadurn%C3%AD+de+Noya,+Barcelona/@41.4256338,1.7873222,17z/data=!4m16!1m6!3m5!1s0x12a47cd252e55cad:0x20ce47eb70f3cacd!2sCol%C2%B7legi+Sant+Josep+-+Fundaci%C3%B3+de+Cultura+i+Promoci%C3%B3+Social!8m2!3d41.4256298!4d1.7895109!4m8!1m0!1m5!1m1!1s0x12a47cd252e55cad:0x20ce47eb70f3cacd!2m2!1d1.7895109!2d41.4256298!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC SANT JUST</td>
+    <td>Passeig de la Muntanya, 27</td>
+    <td>08960 | Sant Just Desvern | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Hoquei+Club+Sant+Just,+Passeig+de+la+Muntanya,+27,+08960+Sant+Just+Desvern,+Barcelona/@41.3917205,2.0758772,17z/data=!4m16!1m6!3m5!1s0x12a499853cbd35f1:0x83824ef7f6e3a8e6!2sHoquei+Club+Sant+Just!8m2!3d41.390457!4d2.0759416!4m8!1m0!1m5!1m1!1s0x12a499853cbd35f1:0x83824ef7f6e3a8e6!2m2!1d2.0759416!2d41.390457!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP SANT RAMON</td>
+    <td>Avinguda de Catalunya, 31</td>
+    <td>08720 | Vilafranca del Pened&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pati+Vilafranca,+Av.+Catalunya,+0,+08720+Villafranca+del+Panad%C3%A9s,+Barcelona/@41.3470796,1.6811157,17z/data=!4m16!1m6!3m5!1s0x12a479ef9e2052b5:0x25a75f9c32c46609!2sClub+Pati+Vilafranca!8m2!3d41.3470756!4d1.6833044!4m8!1m0!1m5!1m1!1s0x12a479ef9e2052b5:0x25a75f9c32c46609!2m2!1d1.6833044!2d41.3470756!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH STA PERPETUA</td>
+    <td>Avinguda de Girona, 7</td>
+    <td>08130 | Santa Perp&egrave;tua de Mogoda | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Hockey+Santa+Perpetua,+Avinguda+de+Girona,+7,+08130+Santa+Perpetua+de+moguda,+Barcelona/@41.5293051,2.1797027,17z/data=!4m16!1m6!3m5!1s0x12a4be59c973b3ef:0x7747050151be3bf2!2sHockey+Santa+Perpetua!8m2!3d41.52957!4d2.1815!4m8!1m0!1m5!1m1!1s0x12a4be59c973b3ef:0x7747050151be3bf2!2m2!1d2.1815!2d41.52957!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>SEK-CATALUNYA</td>
+    <td>Avinguda de Tremolencs, 24-25</td>
+    <td>08530 | La Garriga | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Colegio+Internacional+SEK-Catalunya,+Avinguda+dels+Tremolencs,+24,+08530+La+Garriga,+Barcelona/@41.6966209,2.2766409,17z/data=!4m16!1m6!3m5!1s0x12a4c5a1036281bd:0x9c8f835a20c5c973!2sColegio+Internacional+SEK-Catalunya!8m2!3d41.6966169!4d2.2788296!4m8!1m0!1m5!1m1!1s0x12a4c5a1036281bd:0x9c8f835a20c5c973!2m2!1d2.2788296!2d41.6966169!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC SENTMENAT</td>
+    <td>Carrer de Poca Farina, S/N</td>
+    <td>08181 | Sentmenat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Institut+p%C3%BAblic+de+Sentmenat,+Carrer+de+la+Poca+Farina,+s%2Fn,+08181+Senmanat,+Barcelona/@41.6048102,2.1356288,17z/data=!4m16!1m6!3m5!1s0x12a4ea99867bbc5b:0x91fd667cc8d5e43a!2sInstitut+p%C3%BAblic+de+Sentmenat!8m2!3d41.6048062!4d2.1378175!4m8!1m0!1m5!1m1!1s0x12a4ea99867bbc5b:0x91fd667cc8d5e43a!2m2!1d2.1378175!2d41.6048062!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>SFERIC</td>
+    <td>Carrer de Sardenya, 34</td>
+    <td>08224 | Terrassa | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Sferic+B%C3%A0squet,+Carrer+de+Faraday,+41,+08224+Terrassa,+Barcelona/@41.5575751,2.0013997,17z/data=!4m16!1m6!3m5!1s0x12a49293ef1e76e3:0x69439cbb39a81706!2sSferic+B%C3%A0squet!8m2!3d41.5575711!4d2.0035884!4m8!1m0!1m5!1m1!1s0x12a49293ef1e76e3:0x69439cbb39a81706!2m2!1d2.0035884!2d41.5575711!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP SITGES</td>
+    <td>Carrer del Cardenal Vidal i Barraquer, S/N</td>
+    <td>08870 | Sitges | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Hoquei+Sitges+-+Club+Pat%C3%AD+Subur+Sitges,+Carrer+Cardenal+Vidal+i+Barraquer,+18,+08870+Sitges,+Barcelona/@41.242006,1.8112412,17z/data=!4m16!1m6!3m5!1s0x12a3803f4852e815:0xe74033fc27addd8e!2sHoquei+Sitges+-+Club+Pat%C3%AD+Subur+Sitges!8m2!3d41.242002!4d1.8134299!4m8!1m0!1m5!1m1!1s0x12a3803f4852e815:0xe74033fc27addd8e!2m2!1d1.8134299!2d41.242002!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP TARADELL</td>
+    <td>Carrer de Catalunya, S/N</td>
+    <td>08552 | Taradell | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+d'esports+El+Pujol%C3%B3,+Carrer+Abelles,+s%2Fn,+08552+Taradell,+Barcelona/@41.8708163,2.2788585,17z/data=!4m16!1m6!3m5!1s0x12a4d84739a2a36d:0x176e7eb9681d4a94!2sPavell%C3%B3+d'esports+El+Pujol%C3%B3!8m2!3d41.8717794!4d2.2815302!4m8!1m0!1m5!1m1!1s0x12a4d84739a2a36d:0x176e7eb9681d4a94!2m2!1d2.2815302!2d41.8717794!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HP TONA</td>
+    <td>Carrer de Jaume Balmes, S/N</td>
+    <td>08551 | Tona | Barcelona</td>
+    <td><a href="https://www.google.com/maps/place/Carrer+Jaume+Balmes,+57,+08551+Tona,+Barcelona,+Spain/@41.846873,2.218517,16z/data=!4m5!3m4!1s0x12a4dece7760fe2b:0xcb5930160d329748!8m2!3d41.8468733!4d2.218517?hl=en-US" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP TORDERA</td>
+    <td>Pla&ccedil;a de la Conc&ograve;rdia</td>
+    <td>08490 | Tordera | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pat%C3%AD+Tordera,+Conc%C3%B2rdia,+Pla%C3%A7a+Conc%C3%B2rdia,+08490+Tordera,+Barcelona/@41.7011144,2.7159213,17z/data=!4m16!1m6!3m5!1s0x12bb3c932c3a864d:0x4864d8a67bccf475!2sClub+Pat%C3%AD+Tordera!8m2!3d41.7011104!4d2.71811!4m8!1m0!1m5!1m1!1s0x12bb3c932c3a864d:0x4864d8a67bccf475!2m2!1d2.71811!2d41.7011104!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE TORRELAVIT</td>
+    <td>Carrer de les Escoles, S/N</td>
+    <td>08775 | Torrelavit | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavello+Poliesportiu+Municipal,+Carrer+de+les+Escoles,+3,+08775+Torrelavit,+Barcelona/@41.4483786,1.7264545,17z/data=!4m16!1m6!3m5!1s0x12a47cd300915497:0xa0b266305936d07b!2sPavello+Poliesportiu+Municipal!8m2!3d41.4485459!4d1.7291129!4m8!1m0!1m5!1m1!1s0x12a47cd300915497:0xa0b266305936d07b!2m2!1d1.7291128!2d41.4485458!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP TORRELLES</td>
+    <td>Torrent de Can Xicarr&oacute;, S/N</td>
+    <td>08629 | Torrelles de Llobregat | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pla%C3%A7a+d'Albert+Badia+i+Mur,+Barcelona/@41.4277842,2.1906494,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x12a4bcd032c2898b:0x2c64cf0d066249e1!2m2!1d2.1928381!2d41.4277842!3e0" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE UNIVERSITARI</td>
+    <td>Carrer de la Immaculada, 25-35</td>
+    <td>08017 | Barcelona | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+de+la+Immaculada,+25,+35,+08017+Barcelona/@41.4068734,2.1224511,17z/data=!4m17!1m7!3m6!1s0x12a4983de1eeb8eb:0x55b0cbf43f3c91f3!2sCarrer+de+la+Immaculada,+25,+35,+08017+Barcelona!3b1!8m2!3d41.4068694!4d2.1246398!4m8!1m0!1m5!1m1!1s0x12a4983de1eeb8eb:0x55b0cbf43f3c91f3!2m2!1d2.1246398!2d41.4068694!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP VIC</td>
+    <td>Avinguda d'Ol&iacute;mpia, 15</td>
+    <td>08500 | Vic | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pat%C3%AD+Vic,+Avingudada+Ol%C3%ADmpia,+15,+08500+Vich,+Barcelona/@41.9329574,2.2369777,17z/data=!4m16!1m6!3m5!1s0x12a527183e1f7e85:0x1be4954ec759329e!2sClub+Pat%C3%AD+Vic!8m2!3d41.9329534!4d2.2391664!4m8!1m0!1m5!1m1!1s0x12a527183e1f7e85:0x1be4954ec759329e!2m2!1d2.2391664!2d41.9329534!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP VILAFRANCA</td>
+    <td>Avinguda de Catalunya, S/N</td>
+    <td>08720 | Vilafranca del Pened&egrave;s | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pati+Vilafranca,+Av.+Catalunya,+0,+08720+Villafranca+del+Panad%C3%A9s,+Barcelona/@41.3470796,1.6811157,17z/data=!4m16!1m6!3m5!1s0x12a479ef9e2052b5:0x25a75f9c32c46609!2sClub+Pati+Vilafranca!8m2!3d41.3470756!4d1.6833044!4m8!1m0!1m5!1m1!1s0x12a479ef9e2052b5:0x25a75f9c32c46609!2m2!1d1.6833044!2d41.3470756!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP VILANOVA</td>
+    <td>Carrer de les Casernes, S/N</td>
+    <td>08800 | Vilanova i la Geltr&uacute; | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pati+Vilanova,+Carrer+de+les+Casernes,+0+S+N,+08800+Villanueva+y+Geltr%C3%BA,+Barcelona/@41.228744,1.7245413,17z/data=!4m16!1m6!3m5!1s0x12a3871d73de53a9:0x4bc2e4307b2de7af!2sClub+Pati+Vilanova!8m2!3d41.22874!4d1.72673!4m8!1m0!1m5!1m1!1s0x12a3871d73de53a9:0x4bc2e4307b2de7af!2m2!1d1.72673!2d41.22874!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>VILASSAR HC</td>
+    <td>Carretera de Argentona, S/N</td>
+    <td>08340 | Vilassar de Mar | Barcelona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+Vilassar+de+Mar,+Carretera+d'Argentona,+105,+08340+Vilassar+de+Mar,+Barcelona/@41.5080591,2.3949981,17z/data=!4m16!1m6!3m5!1s0x12a4b412488618f3:0x731d6e0180dbe7d7!2sPavell%C3%B3+Municipal+Vilassar+de+Mar!8m2!3d41.5080551!4d2.3971868!4m8!1m0!1m5!1m1!1s0x12a4b412488618f3:0x731d6e0180dbe7d7!2m2!1d2.3971868!2d41.5080551!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP VOLTREGA</td>
+    <td>Carrer de la Pau, S/N</td>
+    <td>08509 | Les Masies de Voltreg&agrave; | Barcelona</td>
+    <td><a href="https://www.google.com/maps/dir//42.014434,2.238408/@42.0141495,2.2356017,17z" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>AMPA Carme Guasch</td>
+    <td>Carrer Muntaner, 4-6</td>
+    <td>17600 | Figueres | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Escola+P%C3%BAblica+Carme+Guasch+i+Darn%C3%A9,+Carrer+de+Josep+Maria+de+Sagarra,+s%2Fn,+17600+Figueras,+Girona/@42.2546248,2.9568645,17z/data=!4m16!1m6!3m5!1s0x12ba8dbf3f107233:0x421b8e10006c6bf2!2sEscola+P%C3%BAblica+Carme+Guasch+i+Darn%C3%A9!8m2!3d42.2546209!4d2.9590532!4m8!1m0!1m5!1m1!1s0x12ba8dbf3f107233:0x421b8e10006c6bf2!2m2!1d2.9590532!2d42.2546209!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP BLANES</td>
+    <td>Carrer Mas Cuni, 43</td>
+    <td>17300 | Blanes | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Ciutat+Esportiva+de+Blanes,+Carrer+Mas+Cun%C3%AD,+43,+17300+Blanes,+Girona/@41.6837606,2.7699887,17z/data=!4m16!1m6!3m5!1s0x12bb3d83c9556c6d:0xe6a548f80cadcbe2!2sCiutat+Esportiva+de+Blanes!8m2!3d41.6837566!4d2.7721774!4m8!1m0!1m5!1m1!1s0x12bb3d83c9556c6d:0xe6a548f80cadcbe2!2m2!1d2.7721774!2d41.6837566!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP BREDA</td>
+    <td>Avinguda Catalunya, S/N</td>
+    <td>17400 | Breda | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pat%C3%AD+Breda,+Avinguda+Catalunya+s%2Fn+-+Zona+esportiva,+17400+Breda,+Girona/@41.747053,2.5606672,17z/data=!4m16!1m6!3m5!1s0x12bb2e3e9e04a711:0xb4e28fba33dd8ab1!2sClub+Pat%C3%AD+Breda!8m2!3d41.747049!4d2.5628559!4m8!1m0!1m5!1m1!1s0x12bb2e3e9e04a711:0xb4e28fba33dd8ab1!2m2!1d2.5628559!2d41.747049!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP CALDES</td>
+    <td>Avinguda de Caldes, S/N</td>
+    <td>17455 | Caldes De Malavella | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+de+Caldes+de+Malavella,+Avinguda+de+Caldes,+s%2Fn,+17455+Caldas+de+Malavella,+Girona/@41.8380749,2.7963907,17z/data=!4m16!1m6!3m5!1s0x12bb1f0ce1988d17:0xad3ee4fd1859f6e5!2sPavell%C3%B3+Municipal+de+Caldes+de+Malavella!8m2!3d41.8380709!4d2.7985794!4m8!1m0!1m5!1m1!1s0x12bb1f0ce1988d17:0xad3ee4fd1859f6e5!2m2!1d2.7985794!2d41.8380709!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>FD CASSANENC</td>
+    <td>Piscina, S/N</td>
+    <td>17244 | Cass&agrave; de la Selva | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Foment+Deportiu+Cassanec,+Carrer+Piscina,+0,+17244+Cass%C3%A1+de+la+Selva,+Girona/@41.8833104,2.8747033,17z/data=!4m16!1m6!3m5!1s0x12bb1df55a4b942f:0xae6bb10444d95b8f!2sPavell%C3%B3+Foment+Deportiu+Cassanec!8m2!3d41.8833064!4d2.876892!4m8!1m0!1m5!1m1!1s0x12bb1df55a4b942f:0xae6bb10444d95b8f!2m2!1d2.876892!2d41.8833064!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH FARNERS</td>
+    <td>Carretera de Sant Hilari Sacalm, S/N</td>
+    <td>17430 | Santa Coloma de Farners | Girona</td>
+    <td><a href="https://www.google.es/maps/search/Carretera+de+Sant+Hilari+Sacalm,+S%2FN+%0917430+%7C+Santa+Coloma+de+Farners/@41.8575865,2.6435603,14z/data=!3m1!4b1" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP FLIX</td>
+    <td>Carrer Xofars, S/N</td>
+    <td>43750 | Flix | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+Xofars,+43750,+Tarragona/@41.2327156,0.5544432,17z/data=!4m17!1m7!3m6!1s0x12a0d450e46404c7:0x536c8e67825163dd!2sCarrer+Xofars,+43750,+Tarragona!3b1!8m2!3d41.2327116!4d0.5566319!4m8!1m0!1m5!1m1!1s0x12a0d450e46404c7:0x536c8e67825163dd!2m2!1d0.5566319!2d41.2327116!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>G.E. i E.G.</td>
+    <td>Carrer d'Emp&uacute;ries, 47</td>
+    <td>17005 | Girona | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+d'Emp%C3%BAries,+47,+17005+Girona/@41.9716117,2.8086291,538m/data=!3m1!1e3!4m17!1m7!3m6!1s0x12bae72eefe3b197:0x2a0505bc0a87e969!2sCarrer+d'Emp%C3%BAries,+47,+17005+Girona!3b1!8m2!3d41.9716077!4d2.8108178!4m8!1m0!1m5!1m1!1s0x12bae72eefe3b197:0x2a0505bc0a87e969!2m2!1d2.8108178!2d41.9716077!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>GIRONA CH</td>
+    <td>Carrer Josep Aguilera i Mart&iacute;, 2 (Pavell&oacute; de Palau II)</td>
+    <td>17003 | Girona | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+Palau+2,+Carrer+Josep+Aguilera+i+Mart%C3%AD,+2,+17003+Girona/@41.9647911,2.8171173,538m/data=!3m1!1e3!4m16!1m6!3m5!1s0x12bae6d547fcc695:0xdc5f4b9439670a2b!2sPavell%C3%B3+Municipal+Palau+2!8m2!3d41.9647871!4d2.819306!4m8!1m0!1m5!1m1!1s0x12bae6d547fcc695:0xdc5f4b9439670a2b!2m2!1d2.819306!2d41.9647871!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP JONQUERENC</td>
+    <td>Piscina, S/N</td>
+    <td>17700 | La Jonquera | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+d'Esports+La+Jonquera,+Carrer+Zona+Esportiva+S%2FN,+17700+La+Jonquera,+Girona/@42.412483,2.8715748,535m/data=!3m1!1e3!4m16!1m6!3m5!1s0x12ba9bc1361205e5:0x6a598c9d539228e1!2sPavell%C3%B3+d'Esports+La+Jonquera!8m2!3d42.4123381!4d2.8739826!4m8!1m0!1m5!1m1!1s0x12ba9bc1361205e5:0x6a598c9d539228e1!2m2!1d2.8739826!2d42.4123381!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>EH LA VINYA</td>
+    <td>Carrer de Prat Can Delf&iacute;, S/N</td>
+    <td>17000 | Arb&uacute;cies | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Poliesportiu+Municipal+Can+Delfi,+Calle+Prat+De+Can+Delfi,+0+S+N+S-N+(+Zona+Esportiva+Can+Delfi+),+17401+Arbucias,+Girona/@41.8170208,2.5107901,540m/data=!3m1!1e3!4m16!1m6!3m5!1s0x12bb2b893bd00dfb:0x648b29e302939d44!2sPoliesportiu+Municipal+Can+Delfi!8m2!3d41.8170504!4d2.5124835!4m8!1m0!1m5!1m1!1s0x12bb2b893bd00dfb:0x648b29e302939d44!2m2!1d2.5124835!2d41.8170503!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH LLORET</td>
+    <td>Carrer dels Esports, S/N</td>
+    <td>17310 | Lloret de Mar | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Hoquei+Lloret,+Carrer+dels+Esports,+17310+Lloret+de+Mar,+Girona/@41.7027744,2.8398866,541m/data=!3m1!1e3!4m16!1m6!3m5!1s0x12bb173eb8495e65:0x532457ac1b04654e!2sClub+Hoquei+Lloret!8m2!3d41.7028554!4d2.8421501!4m8!1m0!1m5!1m1!1s0x12bb173eb8495e65:0x532457ac1b04654e!2m2!1d2.8421501!2d41.7028554!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CPH OLOT</td>
+    <td>Avda. Rep&uacute;blica Argentina, S/N</td>
+    <td>17800 | Olot | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pat%C3%AD+Hoquei+Olot,+Av.+Rep%C3%BAblica+Argentina,+8,+17800+Olot,+Girona/@42.1743338,2.481338,537m/data=!3m1!1e3!4m16!1m6!3m5!1s0x12bacae130a28dc3:0x2ab8eb2519c34a34!2sClub+Pat%C3%AD+Hoquei+Olot!8m2!3d42.1743298!4d2.4835267!4m8!1m0!1m5!1m1!1s0x12bacae130a28dc3:0x2ab8eb2519c34a34!2m2!1d2.4835267!2d42.1743298!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH PALAFRUGELL</td>
+    <td>Carrer Ample, S/N</td>
+    <td>17200 | Palafrugell | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Palafrugell+Club+Hoquei,+Carrer+Ample,+95-111,+17200+Palafrugell,+Girona/@41.9103347,3.1605035,17z/data=!4m16!1m6!3m5!1s0x12ba548c033353df:0x7c3419e1fcf29ed2!2sPalafrugell+Club+Hoquei!8m2!3d41.9103307!4d3.1626922!4m8!1m0!1m5!1m1!1s0x12ba548c033353df:0x7c3419e1fcf29ed2!2m2!1d3.1626922!2d41.9103307!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP RIBES FRESER</td>
+    <td>Carrer de Girona (Zona Esportiva)</td>
+    <td>17534 | Ribes De Freser | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal,+Carrer+de+Girona,+2,+17534+Ribes+de+Freser,+Girona/@42.3049943,2.1672878,17z/data=!4m16!1m6!3m5!1s0x12a5423ca84fbbc5:0xa8eaa42a7c3affb!2sPavell%C3%B3+Municipal!8m2!3d42.3049904!4d2.1694765!4m8!1m0!1m5!1m1!1s0x12a5423ca84fbbc5:0xa8eaa42a7c3affb!2m2!1d2.1694765!2d42.3049904!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC RIPOLL</td>
+    <td>Carrer de Concepci&oacute; Ducloux, S/N</td>
+    <td>17500 | Ripoll | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+de+Concepci%C3%B3+Ducloux,+17500+Ripoll,+Girona/@42.1925398,2.1913188,17z/data=!4m17!1m7!3m6!1s0x12a53f0d97a647c9:0x27f8f024a1d7fc8!2sCarrer+de+Concepci%C3%B3+Ducloux,+17500+Ripoll,+Girona!3b1!8m2!3d42.1925358!4d2.1935075!4m8!1m0!1m5!1m1!1s0x12a53f0d97a647c9:0x27f8f024a1d7fc8!2m2!1d2.1935075!2d42.1925358!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC SALT</td>
+    <td>Pista Poliesportiva</td>
+    <td>17190 | Salt | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//Hoquei+Club+Salt+Carrer+de+Miquel+Mart%C3%AD+i+Pol,+5,+17190+Salt,+Girona/@41.970224,2.7814413,17z/data=!4m16!1m6!3m5!1s0x12bae753e2b850e9:0xc09952f368283437!2sHoquei+Club+Salt!8m2!3d41.97022!4d2.78363!4m8!1m0!1m5!1m1!1s0x12bae753e2b850e9:0xc09952f368283437!2m2!1d2.78363!2d41.97022!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>SHUM Grupo Maestre</td>
+    <td>Carrer de Passeig Sant Lloren&ccedil;, S/N</td>
+    <td>17412 | Maçanet de la Selva | Girona</td>
+    <td><a href="https://www.google.es/maps/dir//S.H.U.M.+(Secci%C3%B3+Hoquei+Uni%C3%B3+Ma%C3%A7anetenca),+C%2F+Passeig+Sant+Lloren%C3%A7,+17412+Ma%C3%A7anet+de+la+Selva,+Girona/@41.7785544,2.7278658,17z/data=!4m16!1m6!3m5!1s0x12bb23b0257aff89:0x8c4960fec3df2479!2sS.H.U.M.+(Secci%C3%B3+Hoquei+Uni%C3%B3+Ma%C3%A7anetenca)!8m2!3d41.7785503!4d2.7300543!4m8!1m0!1m5!1m1!1s0x12bb23b0257aff89:0x8c4960fec3df2479!2m2!1d2.7300545!2d41.7785504!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>HC ALPICAT</td>
+    <td>Parc Del Gra&oacute;, S/N</td>
+    <td>25110 | Alpicat | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Parc+del+Gra%C3%B3,+25110+Alpicat,+Lleida/@41.6695824,0.5492437,17z/data=!4m16!1m6!3m5!1s0x12a71e9082398695:0x510f6a9657b3dafe!2sParc+del+Gra%C3%B3!8m2!3d41.6695784!4d0.5514324!4m8!1m0!1m5!1m1!1s0x12a71e9082398695:0x510f6a9657b3dafe!2m2!1d0.5514324!2d41.6695784!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP BELL-LLOC</td>
+    <td>Carrer de Escoles, S/N</td>
+    <td>25220 | Bell-Lloc d'Urgell | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Club+Pat%C3%AD+Bell-lloc,+25220+Bell-lloc+d'Urgell,+Lleida/@41.6298279,0.7704691,17z/data=!4m16!1m6!3m5!1s0x12a6e85d674305cd:0xf91e35c640c2fbc6!2sClub+Pat%C3%AD+Bell-lloc!8m2!3d41.6298239!4d0.7726578!4m8!1m0!1m5!1m1!1s0x12a6e85d674305cd:0xf91e35c640c2fbc6!2m2!1d0.7726578!2d41.6298239!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH BELLVER</td>
+    <td>Carrer de Travy, S/N</td>
+    <td>25720 | Bellver de Cerdanya | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Poliesportiu+Municipal+de+Bellver,+Carrer+Esport,+5,+25720+Bellver+de+Cerdanya,+Lleida/@42.3680513,1.7746173,17z/data=!4m16!1m6!3m5!1s0x12a59cc6916790cd:0x2c63afa093edc64!2sPoliesportiu+Municipal+de+Bellver!8m2!3d42.3669728!4d1.777345!4m8!1m0!1m5!1m1!1s0x12a59cc6916790cd:0x2c63afa093edc64!2m2!1d1.7773448!2d42.3669727!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH CADI</td>
+    <td>Cami Ral De Cerdanya, S/N</td>
+    <td>25700 | La Seu D'Urgell | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Club+d%E2%80%99Hoquei+i+Patinatge+Art%C3%ADstic+CAD%C3%8D+La+Seu+d%E2%80%99Urgell,+Avinguda+del+Cam%C3%AD+Ral+de+Cerdanya,+36,+25700+La+Seu+d'Urgell,+L%C3%A9rida/@42.3595149,1.4646196,17z/data=!4m16!1m6!3m5!1s0x12a5edb94ebfffff:0x43d4692416c70e72!2sClub+d%E2%80%99Hoquei+i+Patinatge+Art%C3%ADstic+CAD%C3%8D+La+Seu+d%E2%80%99Urgell!8m2!3d42.359511!4d1.4668083!4m8!1m0!1m5!1m1!1s0x12a5edb94ebfffff:0x43d4692416c70e72!2m2!1d1.4668083!2d42.359511!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH JUNEDA</td>
+    <td>Carrer Lleida, S/N</td>
+    <td>25245 | Vila-Sana | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+Lleida,+25245+Vila-sana,+Lleida/@41.6619158,0.9230218,17z/data=!4m17!1m7!3m6!1s0x12a694967bf2ca51:0x1289603b986b9d64!2sCarrer+Lleida,+25245+Vila-sana,+Lleida!3b1!8m2!3d41.6619118!4d0.9252105!4m8!1m0!1m5!1m1!1s0x12a694967bf2ca51:0x1289603b986b9d64!2m2!1d0.9252105!2d41.6619118!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CLL LLISTA BLAVA</td>
+    <td>Passeig Onze de Setembre, Altell</td>
+    <td>25199 | Lleida | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+Onze+de+setembre,+Passeig+de+l'Onze+de+Setembre,+12,+25199+L%C3%A9rida/@41.6235773,0.6104434,17z/data=!4m16!1m6!3m5!1s0x12a6e0389f2f19ad:0x7e47c3e7bf84982c!2sPavell%C3%B3+Municipal+Onze+de+setembre!8m2!3d41.6231732!4d0.6113955!4m8!1m0!1m5!1m1!1s0x12a6e0389f2f19ad:0x7e47c3e7bf84982c!2m2!1d0.6113953!2d41.6231734!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP MOLLERUSA</td>
+    <td>Carrer de Tarragona, 15</td>
+    <td>25230 | Mollerussa | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Campus+Hoquei+Mollerussa,+Carrer+de+Tarragona,+15,+25230+Mollerusa,+L%C3%A9rida/@41.6224307,0.8921002,17z/data=!4m16!1m6!3m5!1s0x12a6eac679e83aab:0x9f1ccf7cab39e7db!2sCampus+Hoquei+Mollerussa!8m2!3d41.6224267!4d0.8942889!4m8!1m0!1m5!1m1!1s0x12a6eac679e83aab:0x9f1ccf7cab39e7db!2m2!1d0.8942889!2d41.6224267!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>TARREGA HPC</td>
+    <td>Cam&iacute; del Palau, S/N</td>
+    <td>25245 | Vila-Sana | Lleida</td>
+    <td><a href="https://www.google.es/maps/search/Dr.+Fleming+n%C2%BA7+25300+T%C3%A0rrega/@41.649387,1.1442099,17z/data=!3m1!4b1" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP TREMP</td>
+    <td>C/ Tarragona, S/N (Pavell&oacute; Esportiu Del Casal)</td>
+    <td>25620 | Tremp | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Esportiu+Joncar,+Carrer+AGBS,+25620+Tremp,+Lleida/@42.1631144,0.8876368,17z/data=!4m16!1m6!3m5!1s0x12a641f0459526ed:0xd822ccebf61b27e4!2sPavell%C3%B3+Esportiu+Joncar!8m2!3d42.1631104!4d0.8898255!4m8!1m0!1m5!1m1!1s0x12a641f0459526ed:0xd822ccebf61b27e4!2m2!1d0.8898255!2d42.1631104!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH VILA-SANA</td>
+    <td>Carrer Lleida, S/N</td>
+    <td>25245 | Vila-Sana | Lleida</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+Lleida,+25245+Vila-sana,+Lleida/@41.6619158,0.9230218,17z/data=!4m17!1m7!3m6!1s0x12a694967bf2ca51:0x1289603b986b9d64!2sCarrer+Lleida,+25245+Vila-sana,+Lleida!3b1!8m2!3d41.6619118!4d0.9252105!4m8!1m0!1m5!1m1!1s0x12a694967bf2ca51:0x1289603b986b9d64!2m2!1d0.9252105!2d41.6619118!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CHP AMPOSTA</td>
+    <td>Carrer de Sebasti&agrave; Juan Arb&oacute;, 6</td>
+    <td>43870 | Amposta | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+Municipal+d'Esports+d'Amposta,+30,,+Carrer+Sebasti%C3%A0+Juan+Arb%C3%B3,+22,+43870+Amposta,+Tarragona/@40.7062024,0.5728752,15z/data=!4m16!1m6!3m5!1s0x12a0fe0d33b9afa9:0x7a7aa394f48c8f47!2sPavell%C3%B3+Municipal+d'Esports+d'Amposta!8m2!3d40.7063773!4d0.5826686!4m8!1m0!1m5!1m1!1s0x12a0fe0d33b9afa9:0x7a7aa394f48c8f47!2m2!1d0.5826686!2d40.7063773!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP CALAFELL</td>
+    <td>Passeig de la Uni&oacute;, S/N</td>
+    <td>43820 | Calafell | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+de+futbol+Calafell,+Passeig+de+la+Uni%C3%B3,+s%2Fn,+43820+Calafell,+Tarragona/@41.1933595,1.5669876,17z/data=!4m16!1m6!3m5!1s0x12a38b8620dc149f:0x8f7e1b8e44302fd3!2sClub+de+futbol+Calafell!8m2!3d41.1933555!4d1.5691763!4m8!1m0!1m5!1m1!1s0x12a38b8620dc149f:0x8f7e1b8e44302fd3!2m2!1d1.5691763!2d41.1933555!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CAMBRILS CH</td>
+    <td>Pla&ccedil;a de l'Ajuntament, S/N</td>
+    <td>43850 | Cambrils | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Cambrils+Club+Hoquei,+Pla%C3%A7a+de+l'Ajuntament,+1,+43850+Cambrils,+Tarragona/@41.0714123,1.054628,17z/data=!4m16!1m6!3m5!1s0x12a144d4f200a8cd:0xfc74f7df3aef8e57!2sCambrils+Club+Hoquei!8m2!3d41.0714083!4d1.0568167!4m8!1m0!1m5!1m1!1s0x12a144d4f200a8cd:0xfc74f7df3aef8e57!2m2!1d1.0568167!2d41.0714083!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>SH CASAL L'ESPLUGA</td>
+    <td>Carrer de Pompeu Fabra, S/N</td>
+    <td>43440 | L'Espluga de Francol&iacute; | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Casal+de+l'Espluga+de+Francol%C3%AD,+Pla%C3%A7a+Montserrat+Canals,+1,+43440+L'Espluga+de+Francol%C3%AD,+Tarragona/@41.3945193,1.0976432,10z/data=!4m16!1m6!3m5!1s0x12a6ae55636f1ae1:0x1973d5bbce055f72!2sCasal+de+l'Espluga+de+Francol%C3%AD!8m2!3d41.3945193!4d1.0976432!4m8!1m0!1m5!1m1!1s0x12a6ae55636f1ae1:0x1973d5bbce055f72!2m2!1d1.0976432!2d41.3945193!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>AE MONTBLANC</td>
+    <td>Carrer del Casal, 2</td>
+    <td>43400 | Montblanc | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Pavell%C3%B3+del+Casal+Montblanqui,+Carrer+del+Casal,+2,+43400+Montblanc,+Tarragona/@41.3757519,1.1627829,17z/data=!4m16!1m6!3m5!1s0x12a6a90d4ed63867:0x46a80a4aa48979cd!2sPavell%C3%B3+del+Casal+Montblanqui!8m2!3d41.3757479!4d1.1649716!4m8!1m0!1m5!1m1!1s0x12a6a90d4ed63867:0x46a80a4aa48979cd!2m2!1d1.1649716!2d41.3757479!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CN REUS PLOMS</td>
+    <td>Avinguda de Mari&agrave; Fortuny, 5</td>
+    <td>43203 | Reus | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Reus+Ploms,+Av.+de+Mari%C3%A0+Fortuny,+3,+43204+Reus,+Tarragona/@41.1540859,1.1157305,17z/data=!4m16!1m6!3m5!1s0x12a150dfe7d60e85:0xa27e044b1012d3a7!2sReus+Ploms!8m2!3d41.1537454!4d1.1167129!4m8!1m0!1m5!1m1!1s0x12a150dfe7d60e85:0xa27e044b1012d3a7!2m2!1d1.1167126!2d41.1537452!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>REUS DEPORTIU</td>
+    <td>Carrer d'Antoni Gaud&iacute;, 66</td>
+    <td>43203 | Reus | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Reus+Deportiu,+Carrer+d'Antoni+Gaud%C3%AD,+66,+43203+Reus,+Tarragona/@41.1618016,1.1056225,17z/data=!4m16!1m6!3m5!1s0x12a1511a54489d63:0x23850066a8e5057c!2sReus+Deportiu!8m2!3d41.1617976!4d1.1078112!4m8!1m0!1m5!1m1!1s0x12a1511a54489d63:0x23850066a8e5057c!2m2!1d1.1078112!2d41.1617976!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP RIUDOMS</td>
+    <td>Carrer de Salvador Espriu, S/N</td>
+    <td>43330 | Riudoms | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//C.D.RIUDOMS,+C.+Salvador+Espriu+s%2Fn,+Local+3,+43330+Riudoms,+Tarragona/@41.1426428,1.0528581,17z/data=!4m16!1m6!3m5!1s0x12a14fdee4f7bbed:0x3901673b71df4fe0!2sC.D.RIUDOMS!8m2!3d41.1429474!4d1.055097!4m8!1m0!1m5!1m1!1s0x12a14fdee4f7bbed:0x3901673b71df4fe0!2m2!1d1.055097!2d41.1429474!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH TORTOSA</td>
+    <td>Carrer d'Alcany&iacute;s, 33</td>
+    <td>43500 | Tortosa | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Carrer+d'Alcany%C3%ADs,+33,+43500+Tortosa,+Tarragona/@40.8145745,0.510475,548m/data=!3m1!1e3!4m17!1m7!3m6!1s0x12a0e4bdbe29d32d:0xe55eababe9b1c07b!2sCarrer+d'Alcany%C3%ADs,+33,+43500+Tortosa,+Tarragona!3b1!8m2!3d40.8145705!4d0.5126637!4m8!1m0!1m5!1m1!1s0x12a0e4bdbe29d32d:0xe55eababe9b1c07b!2m2!1d0.5126637!2d40.8145705!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CP VALLS</td>
+    <td>Carrer del Vilar, S/N</td>
+    <td>43800 | Valls | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir/Pavell%C3%B3+Municipal+Joana+Ballart/Pavell%C3%B3+Municipal+Joana+Ballart,+Carrer+Prat+de+la+Riba,+14,+43800+Valls,+Tarragona/@41.2879587,1.2567364,271m/data=!3m1!1e3!4m14!4m13!1m5!1m1!1s0x12a4008e5dba6c35:0xcab5e462877d999d!2m2!1d1.2586413!2d41.2881068!1m5!1m1!1s0x12a4008e5dba6c35:0xcab5e462877d999d!2m2!1d1.2586413!2d41.2881068!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CE VENDRELL</td>
+    <td>Carrer de Colom, S/N</td>
+    <td>43700 | Vendrell | Tarragona</td>
+    <td><a href="https://www.google.es/maps/dir//Club+d'Esports+Vendrell,+Carrer+de+Colom,+s%2Fn,+43700+El+Vendrell,+Tarragona/@41.2238968,1.5378124,17z/data=!4m16!1m6!3m5!1s0x12a38b2251a8b391:0xe91862f92bf6652e!2sClub+d'Esports+Vendrell!8m2!3d41.2238928!4d1.5400011!4m8!1m0!1m5!1m1!1s0x12a38b2251a8b391:0xe91862f92bf6652e!2m2!1d1.5400011!2d41.2238928!3e3" target="_blank">MAPS</a></td>
+</tr>
+
+<tr>
+    <td>CH VILA-SECA</td>
+    <td>Avinguda de l'Alcalde Pere Molas, S/N</td>
+    <td>43480 | Vila-Seca | Tarragona</td>
+    <td><a href="https://www.google.es/maps/place/Club+Hoquei+Vila-Seca/@41.1018549,1.1477949,17z/data=!4m8!1m2!2m1!1sCH+Vila-seca+Avinguda+de+l'Alcalde+Pere+Molas,+S%2FN+%0943480+%7C+Vila-Seca!3m4!1s0x12a159e431bdfe33:0xef9ec7021319cc74!8m2!3d41.1020531!4d1.1499441" target="_blank">MAPS</a></td>
+</tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        new TableSearch('searchBox', 'dataTable', { noResultsText: 'No he trobat res! Torna a provar.' }).init();
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1MFLXMXN6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-W1MFLXMXN6');
+    </script>
+</body>
+</html>
